@@ -13,9 +13,14 @@ const Hero: React.FC = () => {
           <span className="gradient-text">leaking money.</span>
         </h1>
         
-        <p className="text-xl lg:text-2xl text-slate-600 mb-12 max-w-2xl mx-auto leading-relaxed font-medium">
-          You're losing visitors at every step—and you don't even know where. Get our detailed analysis showing exactly what's costing you conversions (and the fix).
-        </p>
+        <div className="max-w-2xl mx-auto mb-12 space-y-3">
+          <p className="text-2xl lg:text-3xl text-slate-700 leading-relaxed font-semibold">
+            You're losing visitors at every step—and you don't even know where.
+          </p>
+          <p className="text-xl lg:text-2xl text-slate-600 leading-relaxed font-medium">
+            Get our detailed analysis showing exactly what's costing you conversions (and the fix).
+          </p>
+        </div>
 
         <div className="flex items-center justify-center mb-12">
           <a href="https://full-time-side-hustler.thrivecart.com/landing-page-analysis-report/" target="_blank" rel="noopener noreferrer" className="px-12 py-5 bg-brand-600 hover:bg-brand-700 text-white text-xl font-bold rounded-full transition-all shadow-xl shadow-brand-600/20 hover:shadow-2xl hover:-translate-y-1">
