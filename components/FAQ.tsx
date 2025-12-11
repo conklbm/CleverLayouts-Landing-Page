@@ -101,10 +101,12 @@ const FAQ: React.FC = () => {
             Still have questions?
           </p>
           <a
-            href="mailto:brooks.fastsolutions@gmail.com"
+            href="https://x.com/brooksconkle"
+            target="_blank"
+            rel="noopener noreferrer"
             className="text-brand-600 hover:text-brand-700 font-semibold"
           >
-            Email me directly
+            Message me directly
           </a>
         </div>
       </div>
