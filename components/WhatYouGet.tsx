@@ -42,7 +42,7 @@ const WhatYouGet: React.FC = () => {
                 Deliverable 1
               </div>
               <img
-                src="/images/samples/LAAI-Deliverable1 (1).jpg"
+                src="/images/samples/LAAI-Deliverable1-1.jpg"
                 alt="Landing page audit with annotated markup"
                 className="w-full h-auto cursor-pointer hover:scale-105 transition-transform"
                 onClick={() => setShowPreview(true)}
@@ -60,7 +60,7 @@ const WhatYouGet: React.FC = () => {
                 Deliverable 2
               </div>
               <img
-                src="/images/samples/LAAI-Deliverable1 (2).jpg"
+                src="/images/samples/LAAI-Deliverable1-2.jpg"
                 alt="Prioritized action checklist for landing page improvements"
                 className="w-full h-auto cursor-pointer hover:scale-105 transition-transform"
                 onClick={() => setShowPreview(true)}
