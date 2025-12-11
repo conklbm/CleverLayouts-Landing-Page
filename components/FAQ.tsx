@@ -8,8 +8,8 @@ interface FAQItem {
 
 const faqData: FAQItem[] = [
   {
-    question: "What exactly will I receive?",
-    answer: "You'll get a comprehensive PDF report with annotated screenshots showing exactly what's wrong with your landing page. Each issue includes visual markup, a detailed explanation of why it's hurting conversions, and specific recommendations for how to fix it. Every recommendation is prioritized by impact (high/medium/low) so you know what to tackle first."
+    question: "What's included in the webpage audit?",
+    answer: "Your website audit report includes a comprehensive PDF with annotated screenshots showing exactly what's wrong with your landing page. Each issue includes visual markup, a detailed explanation of why it's hurting conversions, and specific recommendations for how to fix it. Every recommendation is prioritized by impact (high/medium/low) so you know what to tackle first. You'll receive actionable landing page feedback that you can implement immediately."
   },
   {
     question: "How long does it take to get my audit?",

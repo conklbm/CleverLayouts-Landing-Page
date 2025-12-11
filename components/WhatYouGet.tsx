@@ -10,8 +10,11 @@ const WhatYouGet: React.FC = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center max-w-2xl mx-auto mb-12">
           <h2 className="text-3xl md:text-5xl font-extrabold text-slate-900 mb-4 tracking-tight">
-            See exactly what you get.
+            Your Website Audit Report
           </h2>
+          <p className="text-xl text-slate-600">
+            See exactly what's included in your webpage audit
+          </p>
         </div>
 
         <div className="grid lg:grid-cols-3 gap-8 items-start">

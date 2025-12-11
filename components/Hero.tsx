@@ -12,13 +12,13 @@ const Hero: React.FC = () => {
           Your landing page is <br />
           <span className="gradient-text">leaking money.</span>
         </h1>
-        
+
         <div className="max-w-2xl mx-auto mb-12 space-y-3">
           <p className="text-2xl lg:text-3xl text-slate-700 leading-relaxed font-semibold">
             You're losing visitors at every step—and you don't even know where.
           </p>
           <p className="text-xl lg:text-2xl text-slate-600 leading-relaxed font-medium">
-            Get our detailed analysis showing exactly what's costing you conversions (and the fix).
+            Get our expert landing page audit showing exactly what's costing you conversions (and the fix).
           </p>
         </div>
 
