@@ -2,6 +2,7 @@ import React from 'react';
 import Hero from './components/Hero';
 import PricingLadder from './components/PricingLadder';
 import WhatYouGet from './components/WhatYouGet';
+import FAQ from './components/FAQ';
 import { AlertCircle } from 'lucide-react';
 
 const App: React.FC = () => {
@@ -23,12 +24,33 @@ const App: React.FC = () => {
           <WhatYouGet />
         </section>
 
-        {/* Final CTA */}
+        {/* Pre-FAQ CTA */}
         <section className="py-12 bg-slate-50">
           <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
             <h3 className="text-2xl md:text-3xl font-bold text-slate-900 mb-6">
               Ready to stop the bleeding?
             </h3>
+            <a href="https://full-time-side-hustler.thrivecart.com/landing-page-analysis-report/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 px-12 py-5 bg-brand-600 hover:bg-brand-700 text-white text-xl font-bold rounded-full transition-all shadow-xl shadow-brand-600/20 hover:shadow-2xl hover:-translate-y-1">
+              Get My Audit Now
+            </a>
+            <p className="text-sm text-slate-500 mt-4">
+              110% satisfaction guarantee • Delivered in 48 hours
+            </p>
+          </div>
+        </section>
+
+        {/* FAQ Section */}
+        <FAQ />
+
+        {/* Final CTA */}
+        <section className="py-16 bg-white">
+          <div className="max-w-2xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
+            <h3 className="text-3xl md:text-4xl font-bold text-slate-900 mb-4">
+              Don't let another visitor slip away.
+            </h3>
+            <p className="text-xl text-slate-600 mb-8">
+              Get your audit now before the price increases.
+            </p>
             <a href="https://full-time-side-hustler.thrivecart.com/landing-page-analysis-report/" target="_blank" rel="noopener noreferrer" className="inline-flex items-center justify-center gap-2 px-12 py-5 bg-brand-600 hover:bg-brand-700 text-white text-xl font-bold rounded-full transition-all shadow-xl shadow-brand-600/20 hover:shadow-2xl hover:-translate-y-1">
               Get My Audit Now
             </a>
