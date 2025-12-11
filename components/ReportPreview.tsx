@@ -13,13 +13,13 @@ const ReportPreview: React.FC<ReportPreviewProps> = ({ isOpen, onClose }) => {
     {
       title: "Visual Markup & Annotations",
       description: "We analyze your page and circle exactly what's broken, with specific notes on why it's costing you conversions.",
-      image: "/images/samples/brooks-suggestions for page.jpg",
+      image: "/images/samples/LAAI-Deliverable1-1.jpg",
       icon: <ImageIcon className="h-5 w-5" />
     },
     {
       title: "Prioritized Action Checklist",
       description: "Get 9+ high-impact fixes ranked by importance. Each item includes specific rewrites and implementation details.",
-      image: "/images/samples/brooksreportsample.jpg",
+      image: "/images/samples/LAAI-Deliverable1-2.jpg",
       icon: <FileText className="h-5 w-5" />
     }
   ];
